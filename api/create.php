@@ -4,7 +4,7 @@
 header('Access-Control-Allow-Origin: *');
 header('Content-Type: application/json');
 header('Acces-Control-Allow-Methods: POST');
-header('Access-Control-Allow-Headers: Access-Control-Allow-Headers,Content-Type,Access-Control-Allow-Methods,Authorization,X-Requested-With');
+header('Access-Control-Allow-Headers: Access-Control-Allow-Headers,Content-Type,Access-Control-Allow-Methods,X-Requested-With');
 // initializing our api
 include_once('../core/initialize.php');
 
